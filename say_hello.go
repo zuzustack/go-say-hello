@@ -11,5 +11,5 @@ func SayWorld() string {
 }
 
 func SayName(name string ) string {
-	return fmt.Sprint("Hello %v",name)
+	return fmt.Sprint("Hello ",name)
 }
